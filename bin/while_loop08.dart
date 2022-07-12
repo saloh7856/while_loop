@@ -6,17 +6,17 @@
 */
 String func(int a){
   int s=0;
-  String f=' ';
-  while(s<a){
+  String l='';
+  while(s<=a){
     s++;
     if(s%2==1){
-      f+=s.toString();
+      l+=s.toString();
     }
   }
-  return f;
+  return l;
 }
 void main(){
 
-  print(func(14543));
+  print(func(10));
 }
 
