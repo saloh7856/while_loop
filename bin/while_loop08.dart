@@ -9,7 +9,7 @@ String func(int a){
   String l='';
   while(s<=a){
     s++;
-    if(s%2==1){
+    if(s%2==0){
       l+=s.toString();
     }
   }
