@@ -17,7 +17,7 @@ String func(int a){
 }
 void main(){
 
-  print(func(10));
+  print(func(15));
 }
 
 
