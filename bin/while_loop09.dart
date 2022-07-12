@@ -5,21 +5,21 @@
   
 */
 String func(int a){
-  int s=0,n=1;
-  String k,f=' ';
-  while(0<a){
-    s+=n;
+  int s=0;
+  String l='';
+  while(s<=a){
+    s++;
     if(s%2==0){
-
-      k=s.toString();
-      f+=k;
+      l+=s.toString();
     }
   }
-  return f;
+  return l;
 }
 void main(){
-  
-  print(func(14585546));
+
+  print(func(10));
 }
+
+
 
 
