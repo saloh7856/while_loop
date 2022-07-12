@@ -7,8 +7,8 @@
 String func(int a){
   int s=0;
   String l='';
-  
-  while(s<=a){
+
+  while(s<a){
     s++;
     if(s%2==1){
       l+=s.toString();
