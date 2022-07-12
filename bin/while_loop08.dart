@@ -5,20 +5,18 @@
   
 */
 String func(int a){
-  int s=0,n=1;
-  String k,f=' ';
-  while(0<a){
-    s+=n;
+  int s=0;
+  String f=' ';
+  while(s<a){
+    s++;
     if(s%2==1){
-
-      k=s.toString();
-      f+=k;
+      f+=s.toString();
     }
   }
   return f;
 }
 void main(){
-  
-  print(func(14585546));
+
+  print(func(14543));
 }
 
