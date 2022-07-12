@@ -10,6 +10,7 @@ String func(int a){
   while(0<a){
     s+=n;
     if(s%2==1){
+
       k=s.toString();
       f+=k;
     }
@@ -17,6 +18,7 @@ String func(int a){
   return f;
 }
 void main(){
+  
   print(func(14585546));
 }
 
