@@ -3,17 +3,15 @@
   Return the number of odd numbers up to A.
 */
 int func(int a){
-  int s=0,m=0;
-  while (a!=0){
-    m=a%10;
-    if(m%2==1){
-      s+=1;
+  int s=0,k=0,n=1;
+  while(s<a){
+    s+=n;
+    if(s%2==1){
+      k+=1;
     }
-    a~/=10;
   }
-  return s;
+  return k;
 }
 void main(){
-  print(func(12345));
+  print(func(12));
 }
-
