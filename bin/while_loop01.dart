@@ -7,7 +7,7 @@ int func(int a){
   while (a!=0){
     m=a%10;
     if(m%2==1){
-      s+=m;
+      s+=1;
     }
     a~/=10;
   }
