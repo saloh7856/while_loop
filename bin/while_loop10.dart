@@ -1,30 +1,26 @@
 /*
   Create function func with "a " argument
   If the number "a" is given, "tub son" is returned if it is a prime number,
-  otherwise "tub son emas"
+  otherwise c
   
   
 */
 String func(int a){
-  int x;
-  while (a>0){
-   if(a%2==0){
-    return 'tub son emas';
-   }else
-   if(a%3==0){
-    return 'tub son emas';
-   }else
-   if(a%5==0){
-    return 'tub son emas';
-   }else
-   if(a%7==0){
-    return 'tub son emas';
-   }else
-   return 'tub son';
+  int i=0;
+  int n=0;
+  while (i<=a){
+    i++;
+    if(a%i==0){
+      n++;
+    }
   }
-  return ' ';
-}
-void main(){
+  if(n==2){
+    return "tup son ";
+  }else 
+  return " tup son emas";
   
-  print(func(23));
+}
+
+void main(){
+  print(func(19));
 }
