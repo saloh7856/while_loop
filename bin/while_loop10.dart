@@ -15,7 +15,7 @@ String func(int a){
     }
   }
   if(n==2){
-    return "tup son ";
+    return "tub son";
   }else 
   return " tup son emas";
   
