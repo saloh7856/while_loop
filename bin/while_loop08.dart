@@ -10,7 +10,6 @@ String func(int a){
   while(s<=a){
     s++;
     if(s%2==1){
-
       l+=s.toString();
     }
   }
@@ -18,7 +17,7 @@ String func(int a){
 }
 void main(){
 
-  print(func(11));
+  print(func(10));
 }
 
 
